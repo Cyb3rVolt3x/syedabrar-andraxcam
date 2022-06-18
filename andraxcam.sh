@@ -5,7 +5,7 @@
 # Hearlty thanks for Noob hackers
 # If you use any part from this code, giving me the credits. Read the Lincense!
 clear
-termux-setup-storage
+
 pkg install php -y
 pkg install wget -y
 clear
@@ -13,7 +13,7 @@ trap 'printf "\n";stop' 2
 
 banner() {
 
-echo '
+echo "
 
                              __
                          __ /_/\___
@@ -25,7 +25,8 @@ echo '
                   _   _   _   _   _   _   _   _   _   
                  / \ / \ / \ / \ / \ / \ / \ / \ / \  
                 ( A | n | d | r | a | x | c | a | m ) 
-                 \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ v.1 ' |lolcat
+                 \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ \_/ v.1 
+                 |lolcat"
 
                                                                                
 echo " "
